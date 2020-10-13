@@ -2,75 +2,80 @@
   <html lang="en">
     <head>
       <title>Fake blog</title>
+      <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <h1>My Favourite city: Chicago</h1>
-      <img src="Chicago.jpg" alt="Chicago_skyline">
-      <p>
-        The City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States.
-        With an estimated population of 2,693,976 in 2019, it is also the most populous city in the Midwestern United States.
-        Chicago is the county seat of Cook County, the second-most-populous county in the US, with a small portion of the northwest side
-        of the city extending into DuPage County near O'Hare Airport. Chicago is the principal city of the Chicago metropolitan area,
-        often referred to as Chicagoland. At nearly 10 million people, the metropolitan area is the third most populous in the United States.
-      </p>
-      <p>Racial composition of Chicago</p>
-      <table>
-        <thead>
-          <tr>
-            <td>Racial composition</td>
-            <td>2010</td>
-            <td>1990</td>
-            <td>1970</td>
-            <td>1940</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>White</td>
-            <td>44.9%</td>
-            <td>45.4%</td>
-            <td>65.6%</td>
-            <td>91.7%</td>
-          </tr>
-          <tr>
-            <td>Black</td>
-            <td>32.9%</td>
-            <td>39.4%</td>
-            <td>32.6%</td>
-            <td>8.7%</td>
-          </tr>
-          <tr>
-            <td>Asian</td>
-            <td>5.5%</td>
-            <td>3.7%</td>
-            <td>0.9%</td>
-            <td>0.1%</td>
-          </tr>
-        </tbody>
-      </table>
-      <h2>List of transit systems of Chicago</h2>
-      <ul>
-        <li>Chicago Transit Authority(CTA)</li>
-        <li>Metra</li>
-        <li>Pace</li>
-      </ul>
-      <a href="https://en.wikipedia.org/wiki/Chicago">Click here for more details</a>
-      <p>Please take this short survey for more interesting blogs</p>
-      <form>
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email"><br>
-        <input type="radio" id="yes" name="newsletter">
-        <label for="yes">Yes, Send me emails</label>
-        <input type="radio" id="no" name="newsletter">
-        <label for="no">No,Please do not send me any emails</label><br><br>
-        <label>How did you here about us?</label><br>
-        <label for="facebook">Facebook</label>
-        <input type="checkbox" id="facebook" name="facebook"><br>
-        <label for="newspaper">Newspaper</label>
-        <input type="checkbox" id="newspaper" name="newspaper"><br>
-        <label for="referal">referal</label>
-        <input type="checkbox" id="referal" name="referal"><br>
-        <input type="submit">
-      </form>
+      <div class="wrapper">
+        <h1>My Favourite city: Chicago</h1>
+        <img src="Chicago.jpg" alt="Chicago_skyline" class="img">
+        <p class="info">
+          The City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States.
+          With an estimated population of 2,693,976 in 2019, it is also the most populous city in the Midwestern United States.
+          Chicago is the county seat of Cook County, the second-most-populous county in the US, with a small portion of the northwest side
+          of the city extending into DuPage County near O'Hare Airport. Chicago is the principal city of the Chicago metropolitan area,
+          often referred to as Chicagoland. At nearly 10 million people, the metropolitan area is the third most populous in the United States.
+        </p>
+        <h2>Racial composition of Chicago</h2>
+        <table>
+          <thead>
+            <tr>
+              <td>Racial composition</td>
+              <td>2010</td>
+              <td>1990</td>
+              <td>1970</td>
+              <td>1940</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>White</td>
+              <td>44.9%</td>
+              <td>45.4%</td>
+              <td>65.6%</td>
+              <td>91.7%</td>
+            </tr>
+            <tr>
+              <td>Black</td>
+              <td>32.9%</td>
+              <td>39.4%</td>
+              <td>32.6%</td>
+              <td>8.7%</td>
+            </tr>
+            <tr>
+              <td>Asian</td>
+              <td>5.5%</td>
+              <td>3.7%</td>
+              <td>0.9%</td>
+              <td>0.1%</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>List of transit systems of Chicago</h2>
+        <ul>
+          <li>Chicago Transit Authority(CTA)</li>
+          <li>Metra</li>
+          <li>Pace</li>
+        </ul>
+        <a href="https://en.wikipedia.org/wiki/Chicago">Click here for more details</a>
+        <div class="form">
+          <h2>Please take this short survey for more interesting blogs</h2>
+          <form>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email"><br>
+            <input type="radio" id="yes" name="newsletter">
+            <label for="yes">Yes, Send me emails</label>
+            <input type="radio" id="no" name="newsletter">
+            <label for="no">No,Please do not send me any emails</label><br><br>
+            <label>How did you here about us?</label><br>
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="facebook" name="facebook"><br>
+            <label for="newspaper">Newspaper</label>
+            <input type="checkbox" id="newspaper" name="newspaper"><br>
+            <label for="referal">referal</label>
+            <input type="checkbox" id="referal" name="referal"><br>
+            <input type="submit">
+          </form>
+        </div>
+      </div>
     </body>
   </html>

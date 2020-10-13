@@ -1,0 +1,44 @@
+body {
+  background-color : peachpuff;
+}
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+h1 {
+  background-color: blueviolet;
+  color: black;
+  margin: 12px auto;
+  width: 392px;
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+  background-color: mediumorchid;
+}
+.img {
+  width: 100%;
+}
+.info{
+  background-color: powderblue;
+  color: brown;
+  font-size: medium;
+}
+p {
+  background-color: mediumorchid;
+  padding: 10px;
+}
+table, tr, td {
+  border: mediumorchid solid 3px;
+  border-collapse: collapse;
+}
+ul, li {
+  background-color: grey;
+}
+.form {
+  background-color: lightskyblue;
+  padding: 20px;
+  margin: 20px 10px;
+}
+
